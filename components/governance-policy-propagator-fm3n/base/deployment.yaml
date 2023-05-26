@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: governance-policy-propagator-fm3n
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio/user-workload@sha256:48618d82c1c81af76c0ec6d781e58877e91af5d0e0caf37ba327abdc62220495
         imagePullPolicy: Always
         name: container-image
         ports:
