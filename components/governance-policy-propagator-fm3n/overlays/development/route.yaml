@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-propagator-fm3n
     app.kubernetes.io/part-of: governance-policy-propagator
-  name: governance-policy-propagainro
+  name: governance-policy-propagam1x3
 spec:
   port:
     targetPort: 8080
