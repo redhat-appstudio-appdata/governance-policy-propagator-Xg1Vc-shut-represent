@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: governance-policy-propagator-fm3n
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/governance-policy-propagator/governance-policy-propagator-fm3n@sha256:8de802fcb1038ef62d3cb376954029434536bf68df4a9ca1d41f35c7243569fd
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/governance-policy-propagator/governance-policy-propagator-fm3n@sha256:86080547f32480085fe9579f56b86828c4bab763ee7e1c7679b77497f404f3f2
         imagePullPolicy: Always
         name: container-image
         ports:
